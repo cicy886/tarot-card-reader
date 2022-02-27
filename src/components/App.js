@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import CardList from './CardList';
 
 function App() {
 
   const API_URL ='https://rws-cards-api.herokuapp.com/api/v1/cards/';
+
+  // reqType use for random route
   const [reqType, setReqType] =useState('');
   const [cards, setCards] = useState([]);
 
