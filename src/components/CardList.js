@@ -1,8 +1,17 @@
 import React from 'react';
 
-const CardList = () => {
+const CardList = ({card}) => {
   return (
-    <div>CardList</div>
+    <React.Fragment>
+      {Object.values(card).map((singleCard, index) => (
+        <Card 
+        key = {index}
+        id = {index}
+        singleCard = {singleCard.name_short}
+        name = {singleCard.name}
+        />
+      ))}
+    </React.Fragment>
   )
 }
 
