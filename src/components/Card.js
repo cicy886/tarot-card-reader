@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div>Card</div>
+    <React.Fragment>
+      <img src = {require(`./../img/cards/${props.singleCard}.jpg`)} alt={props.name}/>
+    </React.Fragment>
   )
 }
 
-export default Card
+export default Card;
