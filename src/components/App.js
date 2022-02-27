@@ -23,7 +23,12 @@ function App() {
 
   return (
     <div className="App">
-      <h3>App</h3>
+      {Object.values(cards).map((card, index) =>
+      <CardList 
+        card = {card}
+        key = {index}
+        />
+      )}
     </div>
   );
 }
