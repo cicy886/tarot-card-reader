@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CardList = ({card}) => {
   return (
-    <React.Fragment>
+    <div className='cardList'>
       {Object.values(card).map((singleCard, index) => (
         <Card 
         key = {index}
@@ -12,7 +12,7 @@ const CardList = ({card}) => {
         name = {singleCard.name}
         />
       ))}
-    </React.Fragment>
+    </div>
   )
 }
 
