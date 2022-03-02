@@ -3,12 +3,6 @@ import PropTypes from 'prop-types';
 
 const Card = (props) => {
 
-  // const cardStyle={
-  //   width: "300px",
-  //   height: "400px",
-  //   padding: "20px"
-  // } style={cardStyle}
-
   return (
     <React.Fragment>
       <div onClick = {() => props.whenCardClicked(props.id)}>
