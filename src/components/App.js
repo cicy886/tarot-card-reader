@@ -32,8 +32,10 @@ function App() {
   };
 
   return (
-    <div className="App">
-      {Object.values(cards).map((card, index) => (
+    <React.Fragment>
+      <div className="app">
+      <main>
+        {Object.values(cards).map((card, index) => (
         <CardList 
         card={card} 
         key={index} 
@@ -41,13 +43,16 @@ function App() {
         onCardSelection={handleChangingSelectedCard}
         />
       ))}
-
+      </main>
+      
       <CardDetailPopup
         popupTrigger={popupTrigger}
         setPopupTrigger={setPopupTrigger}
         selectedCard={selectedCard}
       />
     </div>
+    </React.Fragment>
+    
   );
 }
 

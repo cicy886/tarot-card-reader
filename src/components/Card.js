@@ -3,22 +3,25 @@ import PropTypes from 'prop-types';
 
 const Card = (props) => {
 
-  const cardStyle={
-    width: "300px",
-    height: "400px",
-    padding: "20px"
-  }
+  // const cardStyle={
+  //   width: "300px",
+  //   height: "400px",
+  //   padding: "20px"
+  // } style={cardStyle}
 
   return (
     <React.Fragment>
-      <img src = {require(`./../img/cards/${props.singleCard}.jpg`)} alt={props.name} style={cardStyle}/>
+      <div onClick = {() => props.whenCardClicked(props.id)}>
+      <img src = {require(`./../img/cards/${props.singleCard}.jpg`)} alt={props.name} />
+      </div>
     </React.Fragment>
   )
 }
 
 Card.propTypes = {
   singleCard: PropTypes.string,
-  name: PropTypes.string
+  name: PropTypes.string,
+  whenCardClicked: PropTypes.func
 }
 
 export default Card;
