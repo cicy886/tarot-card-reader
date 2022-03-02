@@ -34,7 +34,12 @@ function App() {
   return (
     <div className="App">
       {Object.values(cards).map((card, index) => (
-        <CardList card={card} key={index} />
+        <CardList 
+        card={card} 
+        key={index} 
+        id = {index}
+        onCardSelection={handleChangingSelectedCard}
+        />
       ))}
 
       <CardDetailPopup
