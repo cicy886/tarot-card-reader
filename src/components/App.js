@@ -8,6 +8,7 @@ function App() {
   // reqType use for random route
   const [reqType, setReqType] =useState('');
   const [cards, setCards] = useState([]);
+  const [selectedCard, setSelectedCard] = useState(null);
 
   useEffect(() => {
     const fetchCards = async () => {
@@ -23,6 +24,11 @@ function App() {
     fetchCards();
 
   },[reqType])
+
+  const handleChangingSelectedCard = (id) => {
+    const selectedCard = cards.cards[id];
+    setSelectedCard(selectedCard);
+  };
 
   return (
     <div className="App">
