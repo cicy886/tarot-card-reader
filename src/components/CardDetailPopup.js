@@ -11,6 +11,7 @@ const CardDetailPopup = (props) => {
           <h3>Upright Position Meaning: {props.selectedCard.meaning_up}</h3>
           <h3>Reversal Position Meaning: {props.selectedCard.meaning_rev}
           </h3>
+          <h3>Discripstion: {props.selectedCard.desc}</h3>
         </div>
       </div>
     </React.Fragment>
