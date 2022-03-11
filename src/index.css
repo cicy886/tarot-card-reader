@@ -55,3 +55,7 @@ img {
   top: 16px;
   right: 16px;
 }
+
+#cardImage:hover {
+  transform: scale(1.2);
+}
