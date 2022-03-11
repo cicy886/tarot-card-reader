@@ -31,24 +31,30 @@ const CardControl = () => {
 
   return (
     <React.Fragment>
-      <div className="app">
-        <main>
+      <div className="main">
+        <div
+          className="container-fluid"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            margin: "10px 130px",
+          }}
+        >
           {Object.values(cards).map((card, index) => (
             <CardList
-              card={card}
               key={index}
+              card={card}
               id={index}
               onCardSelection={handleChangingSelectedCard}
             />
           ))}
-        </main>
-
-        <CardDetailPopup
-          popupTrigger={popupTrigger}
-          setPopupTrigger={setPopupTrigger}
-          selectedCard={selectedCard}
-        />
+        </div>
       </div>
+      <CardDetailPopup
+        popupTrigger={popupTrigger}
+        setPopupTrigger={setPopupTrigger}
+        selectedCard={selectedCard}
+      />
     </React.Fragment>
   );
 };

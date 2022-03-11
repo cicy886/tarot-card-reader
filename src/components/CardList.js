@@ -6,7 +6,7 @@ const CardList = ({card, onCardSelection}) => {
     <React.Fragment>
       {Object.values(card).map((singleCard, index) => (
         <Card 
-        whenCardClicked = {onCardSelection}
+        whenCardDoubleClicked = {onCardSelection}
         key = {index}
         id = {index}
         singleCard = {singleCard.name_short}
