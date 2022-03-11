@@ -66,7 +66,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        {/* <NavbarButton /> */}
       </nav>
     </React.Fragment>
   );
