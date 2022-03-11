@@ -6,7 +6,7 @@ import Category from "./Category";
 const CategoryControl = () => {
   const API_URL = "https://rws-cards-api.herokuapp.com/api/v1/cards/";
 
-  const [reqType, setReqType] = useState("suits/wands");
+  const [reqType, setReqType] = useState("search?type=major");
   const [cards, setCards] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);
   const [popupTrigger, setPopupTrigger] = useState(false);
