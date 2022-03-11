@@ -5,6 +5,7 @@ const Button = ({ buttonText, searchName, reqType, setReqType }) => {
     <React.Fragment>
       <button
         className={searchName === reqType ? "selected" : null}
+        id='btn'
         type="button"
         onClick={() => setReqType(searchName)}
       >
