@@ -6,13 +6,13 @@
 
 ## Taproom Diagram:
 
-<img src ="./src/theme/tarotCardReaderDiagram.png" > 
+<img src ="./src/img/themes/tarotCardReaderDiagram.png" > 
 
 ## Screen Shots
 
-<img src ="./src/theme/websiteScreenShot.png" > 
+<img src ="./src/img/themes/websiteScreenShot.png" > 
 
-<img src ="./src/theme/websiteDemo.gif" > 
+<img src ="./src/img/themes/websiteDemo.gif" > 
 
 ## Technologies Used
 
