@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Tarot Card Reader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### _An App to find out what the future holds for your love life, health and career with this Tarot Card reader. Learn the meanings behind all 78 tarot cards._
 
-## Available Scripts
+#### By _**Sisi Vieira**_
 
-In the project directory, you can run:
+## Taproom Diagram:
 
-### `npm start`
+<img src ="./src/theme/tarotCardReaderDiagram.png" > 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screen Shots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src ="./src/theme/websiteScreenShot.png" > 
 
-### `npm test`
+<img src ="./src/theme/websiteDemo.gif" > 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+* JavaScript
+* React.js
+* Node.js
+* React Card Flip
+* React Router Dom
+* Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Description
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* A user can tap a card and view its orientation.
+* A user can double-tap a flipped card to read its meaning.
+* A user can switch between different pages using the Navbar.
+* A user can see all 78 cards from the Home menu or tap on the Tarot Card Reader title.
+* To draw five random cards, visit the Card Spread page and view which cards fate have dealt you. 
+* Use the "Try Again!" button to draw five new cards on the Card Spread page.
+* To read and learn the meanings behind all 22 major arcanas and 4 suits, tap on a desired category from the categories dropdown menu. 
+* A user can switch between major arcanas and 4 suits using the buttons on top of the page from the categories menu.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup and Use
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository: `$ git clone https://github.com/cicy886/tarot-card-reader.git`
+2. Navigate to the `/tarot-card-reader` directory on your computer
+3. Open with your preferred text editor to view the code base
+4. To start a development server and view the project in the browser:
+   - Navigate to `/tarot-card-reader` in your command line
+   - Run the command `npm install` to install dependencies
+   - Optionally, run the commmand `npm run build` to make a bundle of the files
+   - Finally, run the command `npm run start` to start a development server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Known Bugs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+No Known Bugs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+[MIT](https://opensource.org/licenses/MIT)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Copyright (c) **2022 Sisi Vieira**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact Information
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sisi Vieira cicy886@gmail.com
