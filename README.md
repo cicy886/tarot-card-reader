@@ -33,7 +33,7 @@ https://tarot-card-reader01.herokuapp.com/
 * A user can double-tap a flipped card to read its meaning.
 * A user can switch between different pages using the Navbar.
 * A user can see all 78 cards from the Home menu or tap on the Tarot Card Reader title.
-* To draw five random cards, visit the Card Spread page and view which cards fate have dealt you. 
+* To draw five random cards, visit the Card Spread page and view which cards fate have dealt you. Cards will only show their upright meanings or reversal meanings base on the card orientation.
 * Use the "Try Again!" button to draw five new cards on the Card Spread page.
 * To read and learn the meanings behind all 22 major arcanas and 4 suits, tap on a desired category from the categories dropdown menu. 
 * A user can switch between major arcanas and 4 suits using the buttons on top of the page from the categories menu.
