@@ -2,12 +2,13 @@ import React from 'react';
 import CardSpread from './CardSpread';
 
 
-const CardSpreadList = ({card, onCardSelection, activeCard}) => {
+const CardSpreadList = ({card, onUprightCardSelection, onReversalCardSelection, activeCard}) => {
   return (
     <React.Fragment>
       {Object.values(card).map((singleCard, index) => (
         <CardSpread 
-        whenCardDoubleClicked = {onCardSelection}
+        whenUprightCardDoubleClicked = {onUprightCardSelection}
+        whenReversalCardDoubleClicked = {onReversalCardSelection}
         key = {index}
         id = {index}
         singleCard = {singleCard.name_short}

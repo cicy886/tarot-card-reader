@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardSpreadList from "./CardSpreadList";
-import CardDetailPopup from "./CardDetailPopup";
+import CardUprightDetailPopup from './CardUprightDetailPopup';
+import CardReversalDetailPopup from './CardReversalDetailPopup';
 
 const CardSpreadControl = () => {
   const randomizeNumber = () => {
@@ -12,7 +13,8 @@ const CardSpreadControl = () => {
 
   const [cards, setCards] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);
-  const [popupTrigger, setPopupTrigger] = useState(false);
+  const [uprightPopupTrigger, setUprightPopupTrigger] = useState(false);
+  const [reversalPopupTrigger, setReversalPopupTrigger] = useState(false);
   const [activeCard, setActiveCard] = useState(randomizeNumber());
 
   useEffect(() => {
@@ -29,10 +31,16 @@ const CardSpreadControl = () => {
     fetchCards();
   }, []);
 
-  const handleChangingSelectedCard = (id) => {
+  const handleChangingSelectedCardUpright = (id) => {
     const selectedCard = cards.cards[id];
     setSelectedCard(selectedCard);
-    setPopupTrigger(true);
+    setUprightPopupTrigger(true);
+  };
+
+  const handleChangingSelectedCardReversal = (id) => {
+    const selectedCard = cards.cards[id];
+    setSelectedCard(selectedCard);
+    setReversalPopupTrigger(true);
   };
 
   const handleRefresh = () => {
@@ -57,7 +65,8 @@ const CardSpreadControl = () => {
               card={card}
               id={index}
               activeCard={activeCard}
-              onCardSelection={handleChangingSelectedCard}
+              onUprightCardSelection={handleChangingSelectedCardUpright}
+              onReversalCardSelection={handleChangingSelectedCardReversal}
             />
           ))}
         </div>
@@ -67,9 +76,14 @@ const CardSpreadControl = () => {
           </button>
         </div>
       </div>
-      <CardDetailPopup
-        popupTrigger={popupTrigger}
-        setPopupTrigger={setPopupTrigger}
+      <CardUprightDetailPopup
+        uprightPopupTrigger={uprightPopupTrigger}
+        setUprightPopupTrigger={setUprightPopupTrigger}
+        selectedCard={selectedCard}
+      />
+      <CardReversalDetailPopup
+        reversalPopupTrigger={reversalPopupTrigger}
+        setReversalPopupTrigger={setReversalPopupTrigger}
         selectedCard={selectedCard}
       />
     </React.Fragment>

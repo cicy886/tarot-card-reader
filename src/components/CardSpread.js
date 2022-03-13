@@ -13,24 +13,27 @@ const CardSpread = (props) => {
   const RotatedCard = () => {
     if (props.rotateCard === props.singleCard) { 
       return(
-        <img
+        <div onDoubleClick={() => props.whenReversalCardDoubleClicked(props.id)}
+        className="CardBack">
+          <img
         src={require(`./../img/cards/${
           props.rotateCard
         }.jpg`)}
         alt={props.name}
         style={{ transform: animateCard() }}
       />
+        </div>
       )
-      
     } else {
-
       return (
+        <div onDoubleClick={() => props.whenUprightCardDoubleClicked(props.id)}
+        className="CardBack">
         <img
         src={require(`./../img/cards/${props.singleCard}.jpg`)}
         alt={props.name}
       />
+        </div>
       )
-      
     }
   };
 
@@ -48,13 +51,7 @@ const CardSpread = (props) => {
               </span>
             </div>
           </div>
-
-        <div
-          onDoubleClick={() => props.whenCardDoubleClicked(props.id)}
-          className="CardBack"
-        >
           {RotatedCard()}
-        </div>
       </ReactCardFlip>
     </React.Fragment>
   );
