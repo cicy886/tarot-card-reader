@@ -47,6 +47,9 @@
    - Optionally, run the commmand `npm run build` to make a bundle of the files
    - Finally, run the command `npm run start` to start a development server
 
+## Credits
+* This web app makes use of [E Kelen's](https://github.com/ekelen) tarot-api for the tarot meanings and descriptions. repository can be found at: https://github.com/ekelen/tarot-api
+
 ## Known Bugs
 
 No Known Bugs
