@@ -23,6 +23,7 @@ https://tarot-card-reader01.herokuapp.com/
 * JavaScript
 * React.js
 * Node.js
+* API
 * React Card Flip
 * React Router Dom
 * Git
