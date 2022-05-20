@@ -1,6 +1,6 @@
 import React from "react";
 import CardSpreadControl from "./CardSpreadControl";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 // import Header from "./Header";
 import CardControl from "./CardControl";
 import CategoryControl from "./CategoryControl";
