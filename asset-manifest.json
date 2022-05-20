@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tarot-card-reader/static/css/main.045781cc.css",
-    "main.js": "/tarot-card-reader/static/js/main.a61d346e.js",
+    "main.js": "/tarot-card-reader/static/js/main.e05ea044.js",
     "static/media/backOfTheCard.jpg": "/tarot-card-reader/static/media/backOfTheCard.a31836a624500fe9ff4f.jpg",
     "static/media/cuac.jpg": "/tarot-card-reader/static/media/cuac.bc585d7d7ce25ee68677.jpg",
     "static/media/ar06.jpg": "/tarot-card-reader/static/media/ar06.82cf47e0015f01e4055c.jpg",
@@ -84,10 +84,10 @@
     "static/media/backgroundImage.gif": "/tarot-card-reader/static/media/backgroundImage.4ce435d25e5690272990.gif",
     "index.html": "/tarot-card-reader/index.html",
     "main.045781cc.css.map": "/tarot-card-reader/static/css/main.045781cc.css.map",
-    "main.a61d346e.js.map": "/tarot-card-reader/static/js/main.a61d346e.js.map"
+    "main.e05ea044.js.map": "/tarot-card-reader/static/js/main.e05ea044.js.map"
   },
   "entrypoints": [
     "static/css/main.045781cc.css",
-    "static/js/main.a61d346e.js"
+    "static/js/main.e05ea044.js"
   ]
 }
