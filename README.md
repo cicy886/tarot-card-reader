@@ -8,7 +8,7 @@
 
 https://tarot-card-reader01.herokuapp.com/
 
-## Taproom Diagram
+## Tarot Card Reader Diagram
 
 <img src ="./src/img/themes/tarotCardReaderDiagram.png" > 
 
