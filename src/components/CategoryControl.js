@@ -4,7 +4,7 @@ import CardDetailPopup from "./CardDetailPopup";
 import Category from "./Category";
 
 const CategoryControl = () => {
-  const API_URL = "https://rws-cards-api.herokuapp.com/api/v1/cards/";
+  const API_URL = "https://tarotapi.dev/api/v1/cards/";
 
   const [reqType, setReqType] = useState("search?type=major");
   const [cards, setCards] = useState([]);

@@ -3,7 +3,7 @@ import CardList from "./CardList";
 import CardDetailPopup from "./CardDetailPopup";
 
 const CardControl = () => {
-  const API_URL = "https://rws-cards-api.herokuapp.com/api/v1/cards/";
+  const API_URL = "https://tarotapi.dev/api/v1/cards/";
 
   const [cards, setCards] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);

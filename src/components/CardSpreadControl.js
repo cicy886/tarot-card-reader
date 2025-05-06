@@ -9,7 +9,7 @@ const CardSpreadControl = () => {
     return number;
   };
 
-  const API_URL = "https://rws-cards-api.herokuapp.com/api/v1/cards/random?n=5";
+  const API_URL = "https://tarotapi.dev/api/v1/cards/random?n=5";
 
   const [cards, setCards] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);
