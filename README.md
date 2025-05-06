@@ -6,7 +6,7 @@
 
 ## Demo Link
 
-https://tarot-card-reader01.herokuapp.com/
+https://cicy886.github.io/tarot-card-reader
 
 ## Tarot Card Reader Diagram
 
